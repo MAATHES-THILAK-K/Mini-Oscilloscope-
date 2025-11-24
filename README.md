@@ -3,6 +3,11 @@
 A compact oscilloscope built using Arduino, an SH1106 OLED module, and a simple analog front-end.
 Includes auto-range, trigger detection, waveform plotting, and frequency/duty-cycle measurement.
 
+> **Reference Project Used:**
+> This build was inspired by the project on Instructables:
+> *“Build Your Own Arduino Nano Based DIY Oscilloscope”*
+> *https://www.instructables.com/Build-Your-Own-Arduino-Nano-Based-DIY-Oscilloscope/*
+
 ---
 
 ## 🔧 **Features**
@@ -20,16 +25,28 @@ Includes auto-range, trigger detection, waveform plotting, and frequency/duty-cy
 
 ## 📦 **Hardware**
 
-* Arduino (ATmega328P)
-* SH1106 128×64 I²C OLED
+### **Core Components**
+
+* Arduino Nano (ATmega328P)
+* SH1106 128×64 I²C OLED display
+* Tactile push buttons (4×: SELECT, UP, DOWN, HOLD)
+* Voltage divider resistors
+* Schottky diode
+* 104 capacitor
+* Breadboard or custom PCB
+* Jumper wires
+* 5V regulated power supply
+
+### **Additional Interface Components**
+
 * Input attenuator (1× / 10×)
-* Buttons: Select / Up / Down / Hold
+* User control buttons
 
 ---
 
 ## 🧪 **How It Works**
 
-* Samples analog input using ADC with variable prescaler
+* Samples analog input using ADC with a variable prescaler
 * Computes minimum, maximum, and average voltage
 * Detects trigger events to stabilize waveform display
 * Calculates frequency and duty cycle using edge-cross detection
@@ -39,7 +56,7 @@ Includes auto-range, trigger detection, waveform plotting, and frequency/duty-cy
 
 ## 🖼 **Photos / Screenshots**
 
-*Add your project images inside the `images/` folder.*
+Add images inside the `Images/` folder once your hardware build is ready.
 
 ---
 
@@ -48,11 +65,10 @@ Includes auto-range, trigger detection, waveform plotting, and frequency/duty-cy
 ```
 MiniOscilloscope/
 ├── src/
-│   └── MiniOscilloscope.ino
+│   └── miniOscilloscope.ino
 ├── README.md
 ├── LICENSE
-└── images/
+└── Images/
 ```
 
 ---
-
