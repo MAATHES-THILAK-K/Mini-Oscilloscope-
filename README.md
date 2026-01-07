@@ -40,7 +40,7 @@ Includes auto-range, trigger detection, waveform plotting, and frequency/duty-cy
 ### **Additional Interface Components**
 
 * Input attenuator (1× / 10×)
-* User control buttons
+* User control buttons.
 
 ---
 
