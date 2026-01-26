@@ -1,0 +1,26 @@
+Drill report for ATTINY_85_OSCILLOSCOPE.kicad_pcb
+Created on 2026-01-26T15:11:27+0530
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ATTINY_85_OSCILLOSCOPE-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.350mm  0.0138"  (33 holes)
+    T2  0.500mm  0.0197"  (24 holes)
+    T3  1.000mm  0.0394"  (4 holes)
+    T4  1.100mm  0.0433"  (16 holes)
+    T5  3.200mm  0.1260"  (3 holes)
+
+    Total plated holes count 80
+
+
+Drill file 'ATTINY_85_OSCILLOSCOPE-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
